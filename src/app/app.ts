@@ -13,6 +13,6 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('todo');
-  protected readonly message = signal('This is your todo application!');
+  protected readonly title = signal('TodoAngularApp');
+  protected readonly message = signal('This is your TodoAngularApp application!');
 }

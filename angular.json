@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "todo": {
+    "TodoAngularApp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -58,10 +58,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "todo:build:production"
+              "buildTarget": "TodoAngularApp:build:production"
             },
             "development": {
-              "buildTarget": "todo:build:development"
+              "buildTarget": "TodoAngularApp:build:development"
             }
           },
           "defaultConfiguration": "development"
